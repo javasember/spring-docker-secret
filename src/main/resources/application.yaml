@@ -1,0 +1,6 @@
+docker:
+  secret:
+    path: /run/secrets
+
+custom:
+  password: ${docker.secret.mypassword}
